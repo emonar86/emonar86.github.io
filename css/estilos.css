@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: cadetblue;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.principio_curriculum{
+    border: 1px solid black;
+}
+
+.botones_navegacion{
+    border: 1px solid black;
+}
+
+.perfil {
+    margin: 15px;
+    align-items: center;
+    width: 30%;
+    float: left;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+#foto_perfil{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+
+    margin: auto;
+    display: block;
+}
+
+#lista_datos{
+   text-align: center;
+   list-style: none;
+}
+
+.recuadro_info {
+    margin: 15px;
+    width: 66%;
+    float: left;
+    background-color: lightseagreen;
+    border: 1px solid black;
+}
+
+.cierre_curriculum {
+    background-color:steelblue;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/** */
